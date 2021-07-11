@@ -1,4 +1,4 @@
-# IoT-based-Weather-Monitoring
+# IoT-based-Weather-monitoring-2
 INTRODUCTION:
 
 Weather plays a crucial role in human life. Weather monitoring is necessary, in order to maintain good crop growth, to ensure safe working conditions of workers in industries and mines, to ensure good health conditions, etc. Due to unprecedented growth of industries and vehicular traffic, the purity of clean air and environment, is severely affected. So, to monitor and evaluate, the circumstances in case of exceeding the prescribed level of parameters, an effective environmental monitoring system is needed.
