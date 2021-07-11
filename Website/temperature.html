@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Temperature</title>
+	<link rel="stylesheet" type="text/css" href="homestyle.css">
+	<link rel="stylesheet" type="text/css" href="temperature.css">
+	<link href="https://fonts.googleapis.com/css2?family=Benne&family=Jomhuria&family=Kaushan+Script&family=Oswald&display=swap" rel="stylesheet">
+	<script src="temperature.js"></script>
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+	<header>
+		<div>
+			<ul0>
+				<li class="active"><a href="temperature.html" style="color: black;">TEMPERATURE</a></li>
+				<li><a href="humidity.html" style="color: white;">HUMIDITY</a></li>
+				<li><a href="rain.html" style="color: white;">RAIN</a></li>
+				<li><a href="sunlight.html" style="color: white;">SUNLIGHT INTENSITY</a></li>
+				<li><a href="air.html" style="color: white;">AIR QUALITY</a></li>
+				<li><a href="index.html" style="color: white;">HOME</a></li>
+			</ul0>
+		</div>
+		<div>
+			<h1>TEMPERATURE DATA</h1>
+			<h2><lable>Select Date : </lable><input type="date" id="demo"></h2>
+			<h3><button class="btn btn-success" type="button" onclick="myFunction()">Plot Data</button></h3>
+		</div>
+		<div><h4  id="chartContainer"></h4></div>
+	</header>
+</body>
+</html>

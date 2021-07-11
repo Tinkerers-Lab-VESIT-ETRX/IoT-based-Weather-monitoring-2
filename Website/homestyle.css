@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+ul0{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px ;
+	margin-right: 25px;
+}
+ul0 li{
+	display: inline-block;
+}
+ul0 li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 10px;
+	border: 1px solid grey;
+	border-radius: 8px;
+	transition: 0.6s ease;
+	font-family:'Benne', serif;
+	font-size: 17px;
+}
+ul0 li.active a{
+	background-color: grey;
+}	
+ul0 li a:hover{
+	background-color: grey;
+}
+h1{
+	font-size: 30px; 
+	color: white; 
+	position: absolute;
+	top: 5%;
+	left: 2%;
+	font-family: 'Kaushan Script', cursive;
+}
+h2{
+	font-size: 20px; 
+	color: white; 
+	position: absolute;
+	top: 12%;
+	left: 3%;
+	font-family: 'Oswald', sans-serif;
+}
+h3 button{
+	position: absolute;
+	margin-top: 82.5px;
+	margin-left: 330px;
+	padding: 5px 10px;
+	background-color: white;
+	border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.2),black), url(7.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.pic img{
+	position: absolute;
+	margin-top: 48px;
+	margin-left: 100px;
+	width: 810px;
+	height: auto;
+}
+ul0{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px ;
+	margin-right: 25px;
+}
+ul0 li{
+	display: inline-block;
+}
+ul0 li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 2px 10px;
+	border: 1px transparent;
+	border-radius: 8px;
+	transition: 0.6s ease;
+	font-family:'Benne', serif;
+	font-size: 18px;
+}
+ul0 li.active a{
+	background-color: black;
+}	
+ul0 li a:hover{
+	background-color: gray;
+}
